@@ -1,0 +1,53 @@
+/* Стилі для заголовка */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Стилі для навігації */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Стилі для основного контенту */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  section {
+    flex: 2;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  /* Стилі для бічного контенту */
+  aside {
+    flex: 1;
+  }
+  
+  /* Стилі для підвалу */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
